@@ -1,0 +1,9 @@
+### Get movies
+POST http://localhost:3001/messages
+content-type: application/json
+
+{
+  "name":"Sasha31ha31890Sasha31890Sasha31890Sasha31890Sasha31890Swerwerwer",
+  "email":"test@test.com",
+  "message":"Test message!"
+}
