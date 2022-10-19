@@ -23,8 +23,16 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
+This project was deployed to heroku
+to test:
+POST https://limitless-headland-89444.herokuapp.com/messages
+content-type: application/json
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+{
+  "name":"Sasha31ha31890SashfggffSasha31890Sasha31890Sasha31890Swerwerwer",
+  "email":"test@test.com",
+  "message":"Test message!"
+}
 
 ## Installation
 
