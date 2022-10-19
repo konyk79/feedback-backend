@@ -9,7 +9,7 @@ import {
   ValidationPipe,
 } from '@nestjs/common';
 import { MessagesService } from './messages.service';
-import { Messages } from './entities/messages.entity';
+import { Messages } from './entity/Messages';
 import { HttpExceptionFilter } from './messages-exeption.filter';
 @Controller('/messages')
 @UsePipes(new ValidationPipe({ transform: true })) //Validation by DTO
