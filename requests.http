@@ -3,7 +3,17 @@ POST http://localhost:3001/messages
 content-type: application/json
 
 {
-  "name":"Sasha31ha31890Sashfggffffghfghfghfghfghfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfga31890Sasha31890Sasha31890Sasha31890Swerwerwer",
+  "name":"Sasha31ha31890SashfggfgfgfgSasha31890Sasha31890Swerwerwer",
+  "email":"test@test.com",
+  "message":"Test message!"
+}
+
+### Get movies
+POST https://limitless-headland-89444.herokuapp.com/messages
+content-type: application/json
+
+{
+  "name":"Sasha31ha31890SashfggffSasha31890Sasha31890Sasha31890Swerwerwer",
   "email":"test@test.com",
   "message":"Test message!"
 }
